@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Principal</title>
+</head>
+<body>
+    <h2>Faça seu Login!</h2>
+    <form action="/login" method="POST">
+        <div>
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <br>
+        <div>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <br>
+        <div>
+            <button type="submit">Entrar</button>
+        </div>
+    </form>
+    <br>
+    <p>Não tem uma conta? <a href="/PaginaLogin/LoginCriar.html">Crie uma conta</a></p>
+</body>
+</html>
