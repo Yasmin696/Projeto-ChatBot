@@ -1,0 +1,12 @@
+CREATE DATABASE IF NOT EXISTS usuario_db;
+
+USE usuario_db;
+
+CREATE TABLE usuarios (
+    id_usuario int auto_increment not null,
+    email varchar(45) not null,
+    username varchar(45) unique not null,
+    password int not null,
+    primary key (id_usuario)
+)
+engine=innodb;
